@@ -1,6 +1,7 @@
 
 
-# navitemplateapp
+# Template for Navigation R Shiny App
+
 Shiny app for navigation within the app and heirachies. Link within same shiny app.
 
 
