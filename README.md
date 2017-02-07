@@ -16,10 +16,18 @@ Second Tab page
 
 ## Dependencies
 
-htmltools
-shiny
-shinydashboard
-
+```{r}
+install.packages(c("htmltools","shiny","shinydashboard")
+```
 ## Usage
 
 Download files and run these as shiny Apps using runApp() in R shiny
+
+
+```{r}
+library(shiny)
+runApp("navitemplatedir",port=1111,launch.browser = T)
+```
+
+The above runs the code saved in `navitemplatedir`
+
